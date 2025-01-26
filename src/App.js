@@ -17,6 +17,7 @@ import "./Styles/App.css"
 function App() {
   return (
     <div className="App">
+      
       <BrowserRouter basename="/floatandfriends">
         <Routes>
           <Route path="/" element={<Landing/>}/>
