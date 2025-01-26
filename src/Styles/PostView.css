@@ -1,0 +1,115 @@
+.PostViewContainer {
+    position: relative;
+    width: 31%;
+    padding: 1%;
+}
+.PostViewButton {
+    background: transparent;
+    border: none;
+}
+.PostViewImg {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.PostViewAddressee {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.FullPostContainer {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0,0,0,.3);
+    z-index: 11;
+    width: 100%;
+    height: 100%;
+
+}
+.FullPostImg {
+    position: fixed;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.FullPostPeople {
+    position: fixed;
+    font-size: 1.25rem;
+}
+.FullPostMsg {
+    position: fixed;
+    font-size: 1.25rem;
+    resize: none;
+    background: rgba(0,0,0,.1);
+    border: none;
+}
+.FullPostClose {
+    position: fixed;
+    top: 90%;
+    left: 90%;
+}
+
+
+
+
+#FullHeartTo {
+    top: 35%;
+    left: 8%;
+}
+#FullHeartFrom {
+    top: 61%;
+    left: 30%;
+}
+#FullHeartTxt {
+    top: 39%;
+    left: 23%;
+    height: 20%;
+    width: 53%
+}
+#FullBubbleTo {
+    top: 31%;
+    left: 30%;
+}
+#FullBubbleFrom {
+    top: 65%;
+    left: 30%;
+}
+#FullBubbleTxt {
+    top: 35%;
+    left: 22%;
+    height: 28%;
+    width: 60%
+}
+#FullPrismTo {
+    top: 25%;
+    left: 15%;
+}
+#FullPrismFrom {
+    top: 70%;
+    left: 15%;
+}
+#FullPrismTxt {
+    top: 30%;
+    left: 15%;
+    height: 35%;
+    width: 65%
+}
+#FullStarTo {
+    top: 42%;
+    left: 32%;
+}
+#FullStarFrom {
+    top: 61%;
+    left: 32%;
+}
+#FullStarTxt {
+    top: 45%;
+    left: 29%;
+    height: 15%;
+    width: 43%
+}

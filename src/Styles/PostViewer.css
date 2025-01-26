@@ -1,0 +1,22 @@
+.PostViewer {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.MessagePostImg {
+    position: absolute;
+    height: 100%;
+    transform: translateY(-9.1%);
+}
+
+.PostsContainer {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    z-index: 2;
+    height: 100%;
+    width: 30%;
+    padding: 0% 2.5%;
+}

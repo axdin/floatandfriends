@@ -1,0 +1,22 @@
+.CharacterContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.CharacterIdle {
+    position: absolute;
+    width: 200px;
+    height: auto;
+    cursor: pointer;
+}
+
+.DialogueContainer {
+    position: absolute;
+    z-index: 5;
+}
+
+.InteractionContainer{
+    position: absolute;
+    z-index: 6;
+}

@@ -1,0 +1,25 @@
+.MobileIconContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 30%;
+    width: 40%;
+}
+
+.MobileIconButton {
+    width: 100%;
+    height: 75%;
+    background-color: transparent;
+    border: none;
+}
+
+.MobileIconFriend {
+    width: auto;
+    height: 100%;
+}
+
+.MobileIconTitle {
+    font-size: 1.25em;
+    text-align: center;
+}

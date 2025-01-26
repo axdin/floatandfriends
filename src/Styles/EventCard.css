@@ -1,0 +1,83 @@
+.EventCardContainer {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.EventCardImg {
+    height: 100%;
+    width: auto;
+}
+
+.EventCardBackContainer {
+    height: 80%;
+    width: 100%;
+}
+
+.EventCardBackContent {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    z-index: 2;
+    padding: 3% 10%;
+    width: 70%;
+    height: 60%;
+    top: 15%;
+}
+
+.EventCardTitle {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.EventCardDesc {
+    font-size: 1.5em;
+}
+
+.EventCardDates {
+    font-size: 1.5em;
+}
+
+.MobileEventsButtonRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 20%;
+    width: 100%
+}
+
+.ShuffleEventButton {
+    height: 60%;
+    width: 30%;
+    background: transparent;
+    border: none;
+}
+
+.ShuffleEventButtonImg {
+    height: 100%;
+    width: 100%;
+}
+
+.ShuffleButtonPlaceholder {
+    height: 60%;
+    width: 30%;
+    background: transparent;
+    border: none;
+}
+
+.FlipCardButton{
+    height: 70%;
+    width: 30%;
+    background: transparent;
+    border: none;
+}
+
+.FlipCardImg {
+    height: 100%;
+}

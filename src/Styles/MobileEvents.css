@@ -1,0 +1,23 @@
+.MobileEventsPage {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.MobileEventsHeaderRow {
+    height: 10%;
+    width: 100%;
+}
+
+.MobileEventContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 90%;
+    width: 90%;
+}
+

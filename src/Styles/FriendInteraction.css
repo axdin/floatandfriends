@@ -1,0 +1,23 @@
+.InteractionModal {
+    position: absolute;
+    z-index: inherit;
+    top: 800px;
+    left: 100px;
+    background-color: transparent;
+    border-color: black;
+}
+
+.Textbox {
+    position: absolute;
+    z-index: inherit;
+    top: 0;
+    width: 1200px;
+    height: auto;
+}
+
+.TextboxContents {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    width: 800px;
+}

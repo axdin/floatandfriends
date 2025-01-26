@@ -1,0 +1,10 @@
+.MessagePost {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.MessageFriend {
+    width: 25%;
+    height: auto;
+}

@@ -1,0 +1,35 @@
+.MobileExhibitPage {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.MobileExhibitHeaderRow {
+    height: 10%;
+    width: 100%;
+}
+
+.MobileExhibitContainer{
+    height: 90%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.CurrentExhibitContainer {
+    height: 70%;
+    width: 100%;
+}
+
+.AllExhibitsContainer {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}

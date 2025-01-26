@@ -1,0 +1,96 @@
+.MobileContactContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.MobileContactHeaderRow {
+    height: 10%;
+}
+
+.MobileContactTextRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 60%
+}
+
+.MobileContactText {
+    height: 55%;
+    background-image: url("../Assets/Backgrounds/MobileAboutBackground.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 1.15rem;
+    padding: 23%;
+}
+
+.MobileContactMessageContainer {
+    height: 55%;
+    background-image: url("../Assets/Backgrounds/MobileAboutBackground.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.MobileContactIncompleteText {
+    font-size: .6rem;
+    color: red;
+    display: block;
+    width: 100%;
+}
+
+.MobileContactFriendRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 30%;
+}
+
+.MobileContactFriendImg {
+    height: 110%;
+}
+
+.MobileContactNameLabel{
+    display: block;
+    width: 100%;
+}
+
+.MobileContactEmailLabel{
+    display: block;
+    width: 100%;
+}
+
+.MobileContactMessageLabel {
+    display: block;
+    width: 100%;
+}
+
+.MobileContactMessageInput {
+    height: 54px;
+}
+
+.MobileContactActionsContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 35%
+}
+
+.MobileSocialMediaContainer {
+    font-size: .75rem;
+    padding-top: 10%;
+    height: 25%;
+}
+
+.MobileSocialMediaIconsContainer {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.MobileSocialMediaIcon {
+    height: 100%;
+}

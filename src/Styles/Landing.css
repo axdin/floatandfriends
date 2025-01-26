@@ -1,0 +1,21 @@
+.OptionContainer {
+    display: flex;
+    align-self: center;
+    justify-content: space-evenly;
+    height: 100%
+}
+
+.OptionButton {
+    background: transparent;
+    border: none;
+    width: 40%;
+}
+
+.OptionIcon {
+    width: 90%;
+    height: auto;
+}
+
+.OptionLabel {
+    font-size: 1.5rem;
+}
