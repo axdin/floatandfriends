@@ -7,12 +7,15 @@ on:
 
 jobs:
   deploy:
+    need: build
     runs-on: ubuntu-latest
     permissions:
       contents: read
       pages: write
       id-token: write
-
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
@@ -31,7 +34,7 @@ jobs:
         run: npm run build
 
       - name: Upload Artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           name: build-artifact
           path: ./build
@@ -40,7 +43,7 @@ jobs:
         run: ls -R ./build
 
       - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v3
+        uses: actions/deploy-pages@v4
         with:
           artifact_name: build-artifact
           token: ${{ secrets.FNF_TOKEN }}
