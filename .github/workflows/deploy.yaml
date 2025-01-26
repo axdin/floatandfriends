@@ -36,7 +36,7 @@ jobs:
           path: ./build
 
       - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v3
         with:
           token: ${{ secrets.FNF_TOKEN }}
 
