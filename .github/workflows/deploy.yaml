@@ -28,12 +28,9 @@ jobs:
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          token: ${{ secrets.FNF_TOKEN }}
           path: ./build
 
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v2
-        with:
-          token: ${{ secrets.FNF_TOKEN }}
-          path: ./build
+        token: ${{ secrets.FNF_TOKEN }}
 
