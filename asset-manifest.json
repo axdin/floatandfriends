@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/floatandfriends/static/css/main.66ae4240.css",
-    "main.js": "/floatandfriends/static/js/main.ed8bdbb7.js",
+    "main.js": "/floatandfriends/static/js/main.53145b68.js",
     "static/media/Idle-Bubble.gif": "/floatandfriends/static/media/Idle-Bubble.6276837aa5e208733653.gif",
     "static/media/Computer.gif": "/floatandfriends/static/media/Computer.bf852f2f5c66ef58fbfa.gif",
     "static/media/clouds.gif": "/floatandfriends/static/media/clouds.d09deb3502351ab750f0.gif",
@@ -42,10 +42,10 @@
     "static/media/Floatfont-Regular.ttf": "/floatandfriends/static/media/Floatfont-Regular.e5c2fd610b787c9728bd.ttf",
     "index.html": "/floatandfriends/index.html",
     "main.66ae4240.css.map": "/floatandfriends/static/css/main.66ae4240.css.map",
-    "main.ed8bdbb7.js.map": "/floatandfriends/static/js/main.ed8bdbb7.js.map"
+    "main.53145b68.js.map": "/floatandfriends/static/js/main.53145b68.js.map"
   },
   "entrypoints": [
     "static/css/main.66ae4240.css",
-    "static/js/main.ed8bdbb7.js"
+    "static/js/main.53145b68.js"
   ]
 }
