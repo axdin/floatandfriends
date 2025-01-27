@@ -13,11 +13,12 @@ import MobileContact from "./Components/MobileContact";
 import MobileExhibit from "./Components/MobileExhibit";
 
 import "./Styles/App.css"
+import LoveLetters from "./Components/LoveLetters";
 
 function App() {
   return (
     <div className="App">
-      
+
       <BrowserRouter basename="/floatandfriends">
         <Routes>
           <Route path="/" element={<Landing/>}/>
@@ -31,6 +32,7 @@ function App() {
           <Route path="/Mobile/MessagePost" element={<MobileMessagePost/>}/>
           <Route path="/Mobile/Contact" element={<MobileContact/>}/>
           <Route path="/Mobile/Exhibit" element={<MobileExhibit/>}/>
+          <Route path="/Exhibits/LoveLetters" element={<LoveLetters/>}/>
         </Routes>
       </BrowserRouter>
     </div>

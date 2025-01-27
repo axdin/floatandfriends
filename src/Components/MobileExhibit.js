@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import Menu from "./Menu";
 import ExhibitIcon from "./ExhibitIcon";
 
-import loveLetter from "../Assets/Exhibits/LoveLetterExhibitIcon.png";
+import loveLetter from "../Assets/Icons/LoveLetterExhibitIcon.png";
 
 import "../Styles/MobileExhibit.css";
 

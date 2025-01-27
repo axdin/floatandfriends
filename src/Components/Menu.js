@@ -38,11 +38,17 @@ function Menu({ isMobile }) {
                             <button className="MenuButton" onClick={() => reroute("/Mobile/About")}>
                                 About
                             </button>
+                            <button className="MenuButton" onClick={() => reroute("/Mobile/MessagePost")}>
+                                Post
+                            </button>
                             <button className="MenuButton" onClick={() => reroute("/Mobile/Events")}>
                                 Events
                             </button>
-                            <button className="MenuButton" onClick={() => reroute("/Mobile/MessagePost")}>
-                                Message Post
+                            <button className="MenuButton" onClick={() => reroute("/Mobile/Contact")}>
+                                Contact
+                            </button>
+                            <button className="MenuButton" onClick={() => reroute("/Mobile/Exhibit")}>
+                                Exhibit
                             </button>
                         </div> 
                         :
