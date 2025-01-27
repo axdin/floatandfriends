@@ -19,7 +19,7 @@ function App() {
   return (
     <div className="App">
 
-      <BrowserRouter basename="/floatandfriends">
+      <BrowserRouter>
         <Routes>
           <Route path="/" element={<Landing/>}/>
           <Route path="/Hub" element={<FloatHub/>}/>
