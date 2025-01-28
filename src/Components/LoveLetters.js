@@ -84,8 +84,8 @@ function LoveLetters() {
                 { openSubmission !== 0 &&
                     <button className="OpenStampContainer" onClick={() => setOpenSubmission(0)}>
                         { infos[openSubmission-1].type === "mp4" ? 
-                            <object className="OpenStampVideo" data={submissions[openSubmission-1]} type="video/mp4">
-                            </object>
+                            <video className="OpenStampVideo" data={submissions[openSubmission-1]} type="video/mp4">
+                            </video>
                             :
                             <img src={submissions[openSubmission-1]} className="OpenStampImg"/>
                         }
