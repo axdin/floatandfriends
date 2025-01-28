@@ -76,6 +76,9 @@ function LoveLetters() {
                 <Menu isMobile={true}/>
             </div>
             <div className="StampsGrid">
+                <button onClick={() => setOpenSubmission(0)}>
+                    Close
+                </button>
                 {stamps.map((stamp, index) => (
                     <button onClick={() => setOpenSubmission(index + 1)} className="StampButton">
                         <img key={index} src={stamp} alt={`stamp-${index}`} width="100" height="100" className="StampImg"/>
@@ -90,7 +93,7 @@ function LoveLetters() {
                             :
                             <img src={submissions[openSubmission-1]} className="OpenStampImg"/>
                         }
-                        <button className="OpenStampInfos" onClick={() => setOpenSubmission(0)}>
+                        <div className="OpenStampInfos">
                             <div className="OpenStampHeadline">
                                 <div className="OpenStampTitle">
                                     {infos[openSubmission-1].title + " b"}
@@ -109,7 +112,7 @@ function LoveLetters() {
                                     {infos[openSubmission-1].bio}
                                 </div>
                             }
-                        </button>
+                        </div>
                     </div>
                 }
             </div>
