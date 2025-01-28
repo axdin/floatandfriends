@@ -18,7 +18,7 @@ function EventCard({ event, hasLeft, hasRight, goLeft, goRight }) {
             { isFront ? 
                 <img className="EventCardImg" src={event.front}/> : 
                 <div className="EventCardBackContainer">
-                    <img className="EventCardImg" src={event.back}/>
+                    <img className="EventCardBackImg" src={event.back}/>
                     <div className="EventCardBackContent">
                         <div className="EventCardTitle">
                             {event.title}

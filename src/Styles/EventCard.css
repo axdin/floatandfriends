@@ -9,13 +9,18 @@
 }
 
 .EventCardImg {
-    height: 100%;
+    height: 80%;
     width: auto;
 }
 
 .EventCardBackContainer {
     height: 80%;
     width: 100%;
+}
+
+.EventCardBackImg {
+    height: 100%;
+    width: auto;
 }
 
 .EventCardBackContent {
@@ -74,11 +79,11 @@
 .FlipCardButton{
     height: 70%;
     width: 30%;
-    max-with: 30%;
     background: transparent;
     border: none;
 }
 
 .FlipCardImg {
     height: 100%;
+    max-width: 100%;
 }
