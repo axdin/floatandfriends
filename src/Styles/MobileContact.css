@@ -81,7 +81,8 @@
 .MobileSocialMediaContainer {
     font-size: .75rem;
     padding-top: 10%;
-    height: 25%;
+    height: 50%;
+    width: 100%;
 }
 
 .MobileSocialMediaIconsContainer {
@@ -92,5 +93,6 @@
 }
 
 .MobileSocialMediaIcon {
-    height: 100%;
+    height: 70%;
+    max-width: 100%
 }
