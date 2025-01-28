@@ -76,9 +76,6 @@ function LoveLetters() {
                 <Menu isMobile={true}/>
             </div>
             <div className="StampsGrid">
-                <button onClick={() => setOpenSubmission(0)}>
-                    Close
-                </button>
                 {stamps.map((stamp, index) => (
                     <button onClick={() => setOpenSubmission(index + 1)} className="StampButton">
                         <img key={index} src={stamp} alt={`stamp-${index}`} width="100" height="100" className="StampImg"/>
@@ -86,6 +83,9 @@ function LoveLetters() {
                 ))}
                 { openSubmission !== 0 &&
                     <div className="OpenStampContainer">
+                        <button onClick={() => setOpenSubmission(0)}>
+                            Close
+                        </button>
                         { infos[openSubmission-1].type === "mp4" ? 
                             <video className="OpenStampVideo" controls crossOrigin="anonymous" key={submissions[openSubmission - 1]}>
                                 <source src={submissions[openSubmission-1]} type="video/mp4" className="OpenStampMov"/>
