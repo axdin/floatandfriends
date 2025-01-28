@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 import Landing from "./Components/Landing";
 import FloatHub from "./Components/FloatHub";
@@ -19,7 +19,7 @@ function App() {
   return (
     <div className="App">
 
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route path="/" element={<Landing/>}/>
           <Route path="/Hub" element={<FloatHub/>}/>
@@ -34,7 +34,7 @@ function App() {
           <Route path="/Mobile/Exhibit" element={<MobileExhibit/>}/>
           <Route path="/Exhibits/LoveLetters" element={<LoveLetters/>}/>
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
