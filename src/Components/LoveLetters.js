@@ -82,7 +82,7 @@ function LoveLetters() {
                     </button>
                 ))}
                 { openSubmission !== 0 &&
-                    <button className="OpenStampContainer">
+                    <div className="OpenStampContainer">
                         { infos[openSubmission-1].type === "mp4" ? 
                             <video className="OpenStampVideo" controls crossOrigin="anonymous" key={submissions[openSubmission - 1]}>
                                 <source src={submissions[openSubmission-1]} type="video/mp4" className="OpenStampMov"/>
@@ -90,7 +90,7 @@ function LoveLetters() {
                             :
                             <img src={submissions[openSubmission-1]} className="OpenStampImg"/>
                         }
-                        <div className="OpenStampInfos">
+                        <button className="OpenStampInfos" onClick={() => setOpenSubmission(0)}>
                             <div className="OpenStampHeadline">
                                 <div className="OpenStampTitle">
                                     {infos[openSubmission-1].title + " b"}
@@ -109,8 +109,8 @@ function LoveLetters() {
                                     {infos[openSubmission-1].bio}
                                 </div>
                             }
-                        </div>
-                    </button>
+                        </button>
+                    </div>
                 }
             </div>
         </div>
