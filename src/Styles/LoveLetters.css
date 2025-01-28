@@ -54,6 +54,8 @@
 .OpenStampVideo {
     width: 70%;
     margin: 2%;
+    position: fixed;
+    z-index: 3;
 }
 
 .OpenStampMov {
