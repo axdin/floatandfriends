@@ -32,6 +32,9 @@ jobs:
           CI: false
         run: npm run build
 
+      - name: Add CNAME File
+        run: echo "www.floatandfriends.com" > ./build/CNAME
+
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v3
         with:
