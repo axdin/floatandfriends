@@ -5,6 +5,9 @@ import { collection, getDocs } from "firebase/firestore";
 
 import Menu from "./Menu";
 
+import vid1 from "../Assets/A_Million_Little_Things-Submission.mp4";
+import vid2 from "../Assets/Mundane_Simple-Submission.mp4";
+
 import "../Styles/LoveLetters.css";
 
 function LoveLetters() {
@@ -84,7 +87,11 @@ function LoveLetters() {
                 { openSubmission !== 0 &&
                     <button className="OpenStampContainer" onClick={() => setOpenSubmission(0)}>
                         { infos[openSubmission-1].type === "mp4" ? 
-                            <video className="OpenStampVideo" data={submissions[openSubmission-1]} type="video/mp4">
+                            <video className="OpenStampVideo" controls key={submissions[openSubmission - 1]}>
+                                { openSubmission === 1 ? 
+                                    <source src={vid1} type="video/mp4" className="OpenStampMov"/> :
+                                    <source src={vid2} type="video/mp4" className="OpenStampMov"/>
+                                }
                             </video>
                             :
                             <img src={submissions[openSubmission-1]} className="OpenStampImg"/>
