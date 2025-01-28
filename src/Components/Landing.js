@@ -27,7 +27,7 @@ function Landing() {
 
     return (
         <div className="OptionContainer">
-            <button onClick={(() => enter(false))}
+            <button disabled onClick={(() => enter(false))}
                 onMouseEnter={() => setIsHoveringComputer(true)}
                 onMouseLeave={() => setIsHoveringComputer(false)}
             className="OptionButton">
@@ -35,7 +35,7 @@ function Landing() {
                      <img src={computerGif} className="OptionIcon"/> :
                     <img src={computer} className="OptionIcon"/>
                 }
-                <div className="OptionLabel">Computer</div>
+                <div className="OptionLabel">Computer (under construction)</div>
             </button>
             <button onClick={(() => enter(true))}
                 onMouseEnter={() => setIsHoveringMobile(true)}
