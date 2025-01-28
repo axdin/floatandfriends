@@ -85,7 +85,7 @@ function LoveLetters() {
                     </button>
                 ))}
                 { openSubmission !== 0 &&
-                    <button className="OpenStampContainer" onClick={() => setOpenSubmission(0)}>
+                    <button className="OpenStampContainer" >
                         { infos[openSubmission-1].type === "mp4" ? 
                             <video className="OpenStampVideo" controls key={submissions[openSubmission - 1]}>
                                 { openSubmission === 1 ? 
